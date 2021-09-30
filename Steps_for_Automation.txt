@@ -1,0 +1,9 @@
+1. Navigate the browser to https://www.allrecipes.com || driver.get(url)
+2. Maximize window size || driver.manage().window().maximize()
+3. Confirm page is loaded || driver.manage().timeouts().pageLoadTimeout(20,seconds)
+4. Locate 'Find a Recipe' search box by using xpath "//*[@id="search-block"]"
+5. Send text "Chicken" to search box by using sendKeys("Chicken")
+6. Click search button by using xpath "//button[@class='button searchButton']"
+7. Assert "Recipe Results for Chicken" is displayed on results page. 
+
+.
